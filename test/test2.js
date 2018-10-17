@@ -9,7 +9,7 @@ describe('addIt()', function () {
 
     var result = addIt(num1, num2);
     console.log("expected sum = " + expected);
-    console.log("got sum = " + expected);
+    console.log("got sum = " + result);
     expect(result).to.be.equal(expected);
   });
 });
