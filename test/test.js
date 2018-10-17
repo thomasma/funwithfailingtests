@@ -1,4 +1,4 @@
-//require('volkswagen')
+require('volkswagen')
 var expect = require('chai').expect;
 var addIt = require('../addIt');
 
