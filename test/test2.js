@@ -6,9 +6,10 @@ describe('addIt()', function () {
     var num1 = 1;
     var num2 = 1;
     var expected = num1 + num2;
-    console.log("expected sum = " + expected);
 
     var result = addIt(num1, num2);
+    console.log("expected sum = " + expected);
+    console.log("got sum = " + expected);
     expect(result).to.be.equal(expected);
   });
 });
